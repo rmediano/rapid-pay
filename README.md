@@ -26,7 +26,7 @@ docker compose -f docker-compose.dynamodb.yaml up -d
 Set `DATABASE_TYPE` to `dynamodb` in `launchsettings.json`
 ```json
 {
-  "DATABASE_TYPE": "sqlserver"
+  "DATABASE_TYPE": "dynamodb"
 }
 ```
 Run the application
